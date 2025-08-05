@@ -85,7 +85,7 @@
 ## Задача 5 Решение
 
 1. Docker Compose нашёл оба файла, но выбрал compose.yaml, так как он имеет более высокий приоритет, если оба присутствуют в директории.
-[Задача 5.1](https://github.com/vladrabbit/docker/blob/main/img/docker-6.1.png)
+![Задача 5.1](https://github.com/vladrabbit/docker/blob/main/img/docker-6.1.png)
 
 2. Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла.
 
@@ -106,12 +106,17 @@
 
 3. Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry. Дополнительная документация: https://distribution.github.io/distribution/about/
 
-[Задача 5.2](https://github.com/vladrabbit/docker/blob/main/img/docker-6.2.png)
+![Задача 5.2](https://github.com/vladrabbit/docker/blob/main/img/docker-6.2.png)
 
 
 6. Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect". В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver".
 
-[Задача 5.3](https://github.com/vladrabbit/docker/blob/main/img/docker-6.3.png)
+![Задача 5.3](https://github.com/vladrabbit/docker/blob/main/img/docker-6.3.png)
 ---
+
+### Правила приема
+
+Домашнее задание выполните в файле readme.md в GitHub-репозитории. В личном кабинете отправьте на проверку ссылку на .md-файл в вашем репозитории.
+
 
 
